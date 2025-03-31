@@ -49,7 +49,7 @@ struct StillSpace: View {
                             title: "ripple relax",
                             icon: "water.waves",
                             color: ZenTheme.water,
-                            destination: AnyView(BreathingBallView())
+                            destination: AnyView(RippleRelaxView())
                         )
           
                         ActivityCard(

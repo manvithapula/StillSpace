@@ -54,4 +54,11 @@ struct Line: Identifiable {
     var width: CGFloat
 }
 
+struct Ripple: Identifiable {
+    let id = UUID()
+    let position: CGPoint
+    let creationTime = Date()
+    let baseColor = ZenTheme.water
+}
+
 
