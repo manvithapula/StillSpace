@@ -47,3 +47,11 @@ struct ZenButton: ButtonStyle {
     }
 }
 
+struct Line: Identifiable {
+    let id = UUID()
+    var points: [CGPoint]
+    var color: Color
+    var width: CGFloat
+}
+
+

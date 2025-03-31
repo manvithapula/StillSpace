@@ -35,7 +35,7 @@ struct StillSpace: View {
                             title: "scribble pad",
                             icon: "scribble",
                             color: ZenTheme.secondary,
-                            destination: AnyView( BreathingBallView())
+                            destination: AnyView(ScribblePadView())
                             
                             )
                         ActivityCard(
